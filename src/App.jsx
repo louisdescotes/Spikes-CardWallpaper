@@ -4,7 +4,7 @@ import Card from './components/Card'
 function App() {
 
   return (
-<div className="flex flex-col lg:h-svh lg:flex-row gap-4 h-full justify-center items-center">
+<div className="flex flex-col lg:h-svh lg:flex-row gap-12 h-full justify-center items-center">
      <Card 
      title= "Raycast Wallpaper #1"
      description= "Recreate this wallpaper using AI."

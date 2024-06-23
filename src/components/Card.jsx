@@ -8,7 +8,9 @@ const Card = ({title, description, img}) => {
 
   return (
     <motion.section
+    initial="rest"
     whileHover="hover"
+    animate="rest"
     
     className=" relative flex gap-[18px] flex-col rounded-3xl border p-[18px] w-fit border-[#E4E4EB] bg-white">
         <div className="overflow-hidden rounded-3xl object-cover border h-full w-full ">
@@ -16,10 +18,14 @@ const Card = ({title, description, img}) => {
           src={img}
           alt="img"
           variants={{
-            hover: {
+            rest: {
+                scale: 1,
+                transition: { duration: 0.5, ease: [0, 0.55, 0.45, 1] }
+              },
+              hover: {
                 scale: 1.05,
-                transition: { type: 'tween', duration: 0.3, ease: 'easeOut' }
-            }
+                transition: { duration: 0.5, ease: [0, 0.55, 0.45, 1] }
+              }
           }}
         />
         </div>

@@ -8,17 +8,17 @@ function App() {
      <Card 
      title= "Raycast Wallpaper #1"
      description= "Recreate this wallpaper using AI."
-     img= "/public/one.png"
+     img= "/one.png"
      />
           <Card 
      title= "Raycast Wallpaper #2"
      description= "Recreate this wallpaper using AI."
-     img= "/public/two.png"
+     img= "/two.png"
      />
           <Card 
      title= "Raycast Wallpaper #3"
      description= "Recreate this wallpaper using AI."
-     img= "/public/three.png"
+     img= "/three.png"
      />
     </div>
     
